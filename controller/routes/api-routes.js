@@ -17,7 +17,6 @@ apiRoutes.get('/api/workouts', async (req, res) => {
   });
   
 
-
   apiRoutes.post('/api/workouts', async (req, res) => {
     const workout = new Workout({ exercises: req.body });
     Workout.create(workout)

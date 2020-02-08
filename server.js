@@ -4,7 +4,7 @@ const path = require('path');
 const Workout = require('./models/workout');
 const apiRoutes = require("./controller/routes/api-routes");
 const htmlRoutes = require("./controller/routes/html-routes");
-
+// const routes = require("./controller/routes/routes");
 let mongoose = require('mongoose');
 let db = require('./models');
 
