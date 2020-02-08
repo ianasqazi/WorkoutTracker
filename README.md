@@ -8,16 +8,18 @@ Build a Software Engineering team using command line application. The command li
 >
 > SO THAT I can track the name, type, weight, sets, reps and duration of exercise.
 
+
+## HEROKU DEPLOYED LINK 
+
+Click the link below to check the APP :
+[GitHub URL](https://github.com/ianasqazi/WorkoutTracker)
+
 ## Repository 
 
 Click the link below to check the repository :
-
 [GitHub URL](https://github.com/ianasqazi/WorkoutTracker)
 
 ## Preview
-
-![screenrecording_DevProfile](/sample/ScreenRecording_TeamRoaster.gif)
-
 
 ![HOME_PAGE](/screenshots/homepage.png)
 
@@ -37,7 +39,7 @@ For testing, you will need Node.js and node global package, and also the followi
 
 ## Running the Application
 
-Run the following commands in your terminal window 
+1. Run the following commands in your terminal window 
 
 ```bash
 git clone https://github.com/ianasqazi/WorkoutTracker.git
@@ -45,6 +47,12 @@ git clone https://github.com/ianasqazi/WorkoutTracker.git
 cd WorkoutTracker
 
 npm install
+```
+
+2. Run the seeder file if running on local machine or app connected on HEROKU - JAWS DB
+
+```bash
+node seeders/seed.js
 ```
 
 All packages will be installed and now run the application with the command below : 
