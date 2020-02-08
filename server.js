@@ -2,7 +2,13 @@ const express = require('express');
 const routes = require("./controller/routes/routes");
 
 let mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/workout',
+
+let URL = process.env.MONGOLAB_URI || 'mongodb://localhost/workout';
+
+// mongoose.connect('mongodb://shailishah:admin2912@ds047447.mlab.com:47447/heroku_57vwf0ps',
+
+mongoose.connect(URL,
+// mongoose.connect('mongodb://localhost/workout',
  {
   useNewUrlParser: true,
   useFindAndModify: false,

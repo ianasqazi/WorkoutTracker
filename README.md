@@ -12,7 +12,7 @@ Build a Software Engineering team using command line application. The command li
 ## HEROKU DEPLOYED LINK 
 
 Click the link below to check the APP :
-[GitHub URL](https://github.com/ianasqazi/WorkoutTracker)
+[HOROKU LINK](https://github.com/ianasqazi/WorkoutTracker)
 
 ## Repository 
 
