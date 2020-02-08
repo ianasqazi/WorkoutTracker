@@ -3,3 +3,13 @@
 
 # Dependency directories
 node_modules/
+
+# vscode
+.vscode
+
+# Output of 'npm pack'
+*.tgz
+
+# Logs
+logs
+*.log
