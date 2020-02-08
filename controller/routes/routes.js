@@ -19,7 +19,7 @@ routes.get('/stats', (req, res) => {
   res.sendFile(path.join(__dirname + '../../../public/stats.html'));
 });
 
-//
+//////////////////////////////
 
 routes.get('/api/workouts', async (req, res) => {
     Workout.find({})
@@ -32,17 +32,15 @@ routes.get('/api/workouts', async (req, res) => {
   });
   
 
-  routes.post('/api/workouts', async (req, res) => {
-    const workout = new Workout({ exercises: req.body });
-    Workout.create(workout)
-      .then(dbWorkout => {
+  routes.post('/api/workouts', (req, res) => {
+    Workout.create({
+    }).then(dbWorkout => {
         res.json(dbWorkout);
       })
       .catch(err => {
         res.json(err);
       });
   });
-  
   
   routes.put('/api/workouts/:id', async (req, res) => {
     const id = req.params.id;

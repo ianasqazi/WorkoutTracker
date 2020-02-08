@@ -4,7 +4,6 @@ const routes = require("./controller/routes/routes");
 let mongoose = require('mongoose');
 
 mongoose.connect('mongodb://workoutusers:workout11@ds041208.mlab.com:41208/heroku_tgltvbhf', 
-
  {
   useNewUrlParser: true,
   useFindAndModify: false,
