@@ -55,8 +55,6 @@ const path = require("path");
 // var apiRoutes = express.Router();
 var routes = express.Router();
 
-
-const path = require("path");
 const db = require("../../models");
 const Workout = require('../../models/workout');
 
