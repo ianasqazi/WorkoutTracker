@@ -1,6 +1,6 @@
 # **WorkoutTracker**
 
-Build a Software Engineering team using command line application. The command line will ask you for all the information required to build a team and generate a roaster of the team based on your input.
+Manage your workout with dashboards using EXPRESS.js.
 
 > AS A user
 >
@@ -8,13 +8,12 @@ Build a Software Engineering team using command line application. The command li
 >
 > SO THAT I can track the name, type, weight, sets, reps and duration of exercise.
 
-
-## HEROKU DEPLOYED LINK 
+## HEROKU DEPLOYED LINK
 
 Click the link below to check the APP :
 [HOROKU LINK](https://intense-shore-05475.herokuapp.com/)
 
-## Repository 
+## Repository
 
 Click the link below to check the repository :
 [GitHub URL](https://github.com/ianasqazi/WorkoutTracker)
@@ -27,8 +26,7 @@ Click the link below to check the repository :
 
 ## Requirements
 
-For testing, you will need Node.js and node global package, and also the following dependency packages installed in your environement.  
-
+For testing, you will need Node.js and node global package, and also the following dependency packages installed in your environement.
 
 ### NPM Packages
 
@@ -39,7 +37,7 @@ For testing, you will need Node.js and node global package, and also the followi
 
 ## Running the Application
 
-1. Run the following commands in your terminal window 
+1. Run the following commands in your terminal window
 
 ```bash
 git clone https://github.com/ianasqazi/WorkoutTracker.git
@@ -55,7 +53,7 @@ npm install
 node seeders/seed.js
 ```
 
-All packages will be installed and now run the application with the command below : 
+All packages will be installed and now run the application with the command below :
 
 ```bash
 node start
